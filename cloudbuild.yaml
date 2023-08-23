@@ -1,5 +1,6 @@
 steps:
-- name: 'gcr.io/cloud-builders/gradle'
+- name: gradle:7.4.2-jdk17
+  entrypoint: gradle
   args: [ 'assemble' ]
 
 - name: 'gcr.io/cloud-builders/docker'
