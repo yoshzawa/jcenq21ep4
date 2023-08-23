@@ -1,0 +1,6 @@
+applicationType: default
+defaultPackage: jp.ac.jc21.t.yoshizawa
+testFramework: junit
+sourceLanguage: java
+buildTool: gradle
+features: [app-name, google-cloud-workflow-ci, gradle, http-client-test, java, java-application, junit, logback, micronaut-aot, micronaut-build, netty-server, openapi, properties, readme, serialization-jackson, shade, swagger-ui]
